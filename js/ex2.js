@@ -15,3 +15,16 @@ export function isEven(n) {
   
 }
 
+export function countBs(s) {
+  var b = 0;
+  for (var i = 0; i < s.length; i++)
+    if (s[i] == 'B') b++;
+  return b;
+}
+
+export function countChar(s, c) {
+  var n = 0;
+  for (var i = 0; i < s.length; i++)
+    if (s[i] == c) n++;
+  return n;
+}
