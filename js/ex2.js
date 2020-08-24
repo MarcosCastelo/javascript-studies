@@ -3,3 +3,14 @@ export function min(n, m) {
   return m;
 }
 
+
+export function isEven(n) {
+  if (n > 1) 
+    return isEven(n-2);
+  if (n == 1) 
+    return false; 
+  if (n == 0)
+    return true;
+  
+}
+
